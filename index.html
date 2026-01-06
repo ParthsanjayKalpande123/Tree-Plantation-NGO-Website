@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to the NGO</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/NGOstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div>
+        <nav class="navbar navbar-light bg-white">
+            <div class="container-fluid">
+                <a href="NGO.html" class="navbar-brand">
+                    <img src="img/logo.png" class="logo"/> NGO
+                </a>
+                
+                <div class="d-flex">
+                    <a href="NGO.html" class="nav">Home</a>
+                    <a href="Projects.html" class="nav">Projects</a>
+                    <a href="volunteerings.html" class="nav">Volunteer</a>
+                    <a href="Donation.html" class="nav">Donation</a>
+                    <a href="contact.html" class="nav">Contact</a>
+                    <form method="POST" action="NGOsearch.php" class="d-flex">   
+                        <input class="form-control me-2" type="search" placeholder="Search for city" aria-label="Search" name="search" value="">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <div>
+        <div class="background">
+            <p id="t-1">
+                Empowering Communities,<br/> Changing Lives.
+                <br/>
+                <button type="button" class="btn btn-success">Register</button>
+            </p>
+        </div>
+    </div>
+
+    <!-- Mission Section -->
+    <div>
+        <h1 class="l1">Saving the World by Acting Today</h1>
+        <p class="l2">
+            Our NGO is dedicated to creating a better future by addressing today most pressing issues. 
+            From education and healthcare to environmental protection and social equality, 
+            we believe that meaningful change starts with small steps taken together. 
+        </p>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="group-card">
+        <div class="card-1" style="width: 18rem; margin-left: 200px; display:inline-block; background-color: rgb(209, 209, 208); border-radius: 10px;">
+            <img src="img/img1.webp" class="card-img-top" alt="Education Program">
+            <div class="card-body">
+                <h5 class="card-title">Education for All</h5>
+                <p class="card-text">
+                    We run learning programs and awareness campaigns to provide quality education to children and adults in underprivileged communities.
+                </p>
+                <a href="Projects.html" class="btn btn-primary" style="background-color:green;">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card-2" style="width: 18rem; margin-left: 120px; display:inline-block; background-color: rgb(209, 209, 208); border-radius: 10px;">
+            <img src="img/img3.jpg" class="card-img-top" alt="Healthcare Program">
+            <div class="card-body">
+                <h5 class="card-title">Healthcare Initiatives</h5>
+                <p class="card-text">
+                    Our health drives and medical camps bring essential healthcare services to rural and underserved areas, ensuring healthier communities.
+                </p>
+                <a href="Projects.html" class="btn btn-primary" style="background-color:green;">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card-3" style="width: 18rem; margin-left: 120px; margin-right: 120px; display:inline-block; background-color: rgb(209, 209, 208); border-radius: 10px;">
+            <img src="img/img4.jpg" class="card-img-top" alt="Environment Program">
+            <div class="card-body">
+                <h5 class="card-title">Environment & Sustainability</h5>
+                <p class="card-text">
+                    We focus on planting trees, promoting clean energy, and raising awareness about environmental protection for a sustainable future.
+                </p>
+                <a href="Projects.html" class="btn btn-primary" style="background-color:green;">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer / Social Icons -->
+    <div class="icon" style="background-color: rgb(157, 154, 154); padding-bottom: 1px;">
+        <table class="tb" style="margin-left: 45%; margin-top: 30px;">
+            <tr>
+               <td><a href="#"><img src="img/instagram.png" style="padding-top:1px; height:30px; width:30px; margin-right: 10px;"/></a></td>
+               <td><a href="#"><img src="img/linkedin.png" style="padding-top:1px; height:30px; width:30px; margin-right: 10px;"/></a></td>
+               <td><a href="#"><img src="img/twitter.png" style="padding-top:1px; height:30px; width:30px; margin-right: 10px;"/></a></td>
+            </tr>
+        </table>
+    </div> 
+
+</body>
+</html>

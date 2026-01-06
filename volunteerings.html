@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Volunteering</title>
+        <link rel="stylesheet" href="css/voluteering.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Banner Section -->
+        <div class="bg-1">
+            <div class="t1 text-center py-5">
+                <p style="font-size: 28px; font-weight: bold; color: white;">
+                    Creating a Healthy & Empowered Society Together
+                </p>
+            </div>
+        </div>
+
+        <!-- Work Card -->
+        <div class="card border-dark" style="width:45%; margin-left: 30px; margin-top:30px; display:inline-block;">
+            <div class="card-header" style="background-color: bisque; font-weight: bold;">WORK</div>
+            <div class="card-body">
+                <h5 class="card-title">What Volunteers Do</h5>
+                <p class="card-text">
+                    As a volunteer, you will play a vital role in supporting our initiatives such as:
+                </p>
+                <ul>
+                    <li>Teaching underprivileged children and mentoring youth.</li>
+                    <li>Helping organize health camps and awareness drives.</li>
+                    <li>Participating in environmental activities like tree plantation and clean-up drives.</li>
+                    <li>Assisting in community events and fundraising campaigns.</li>
+                    <li>Spreading awareness about social issues within your community.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Perks Card -->
+        <div class="card border-dark" style="width:45%; margin-left:80px; margin-top:30px; display:inline-block;">
+            <div class="card-header" style="background-color: green; color: aliceblue; font-weight: bold;">PERKS</div>
+            <div class="card-body">
+                <h5 class="card-title">Why Volunteer With Us?</h5>
+                <p class="card-text">
+                    Volunteering with us is not just about giving — it's also about growing. Here’s what you gain:
+                </p>
+                <ul>
+                    <li>Certificate of Appreciation for your contribution.</li>
+                    <li>Hands-on experience in community service and leadership.</li>
+                    <li>Networking opportunities with like-minded changemakers.</li>
+                    <li>Personal growth through skill-building and real-world exposure.</li>
+                    <li>Satisfaction of making a meaningful impact in society.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Volunteer Registration Form -->
+        <div class="form-voluntering" style="margin: 40px;">
+            <form action="participants.php" method="POST" class="volunteer-form" target="_blank">
+                <h2 style="margin-bottom: 20px;">Volunteer Registration</h2>
+                <p>Fill out this form to become a part of our volunteer community. Every hand counts in building a better tomorrow!</p>
+        
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="Name" placeholder="Enter your full name" required>
+        
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+        
+                <label for="password">Password</label>
+                <input type="password" id="password" name="Password" placeholder="Create a password" required>
+        
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="Gender" value="Male" required> Male</label>
+                    <label><input type="radio" name="Gender" value="Female"> Female</label>
+                    <label><input type="radio" name="Gender" value="Other"> Other</label>
+                </div>
+        
+                <label for="address">Address</label>
+                <input type="text" id="address" name="Address" placeholder="Enter your address">
+        
+                <label for="perspective">Why do you want to join?</label>
+                <textarea id="perspective" name="Perspective" rows="5" placeholder="Share your motivation for volunteering..."></textarea>
+        
+                <button type="submit" class="btn btn-success mt-3">Submit Application</button>
+            </form>
+        </div>
+    </body>
+</html>
